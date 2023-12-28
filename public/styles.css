@@ -1,0 +1,41 @@
+.body {
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+.main-cont {
+  background-color: orange;
+  min-width: 40rem;
+  min-height: 20rem;
+  border-radius: 12px;
+}
+.watch-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watch-cont h1 {
+  font-size: 5rem;
+  line-height: 1.2srem;
+  color: orangered;
+}
+.btn-cont {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(4rem, 1fr));
+  grid-gap: 2rem;
+  align-content: center;
+  justify-items: center;
+  color: white;
+}
+.btn {
+  border: 1px solid orangered;
+  padding: 5px 20px;
+  background-color: orangered;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: orange;
+  transition: all 0.3s ease-out;
+}
